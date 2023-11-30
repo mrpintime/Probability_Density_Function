@@ -42,7 +42,7 @@ continuous_dist = ['Normal Distribution (Gaussian Distribution)', 'Uniform Distr
                    'Beta Distribution']
 discrete_dist = ['Bernoulli Distribution', 'Binomial Distribution', 'Poisson Distribution', 'Geometric Distribution']
 
-@st.cache_data(ttl=4, show_spinner='Fetching Data From API...')
+@st.cache_data(ttl=3, show_spinner='Fetching Data From API...')
 def pdf_plot (dist:str, dist_type:str):
     fig, ax = plt.subplots()
     if dist_type == 'Continuous':
