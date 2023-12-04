@@ -12,7 +12,7 @@ import plotly.figure_factory as ff
 import scipy
 
 
-st.title('Probability Distributions') #TODO: add icon and header animation here
+st.title('Probability Distributionsss') #TODO: add icon and header animation here
 st.header('Concept Description')
 
 info_desc = """
